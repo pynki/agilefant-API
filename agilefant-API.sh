@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./conf/agilefant-API.conf
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source $DIR/conf/agilefant-API.conf
 
 ###############################################################################
 

@@ -1,6 +1,8 @@
 #!/bin/bash
 
-source ./agilefant-API.sh
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo "$DIR"
+source $DIR/agilefant-API.sh
 
 ###############################################################################
 
@@ -114,6 +116,8 @@ agilefant-API-getTask-simple() {
 	reVal=$GS_JSON
     log "GS_JSON is: $GS_JSON" 0
 }
+
+################################################################################
 
 # call agilefant-API-getMainStructure $RETURN_VAL
 # function to create a simple representation of the agilefant object structure (products, projects, iterations, stories, tasks)
