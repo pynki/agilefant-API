@@ -14,6 +14,8 @@ and run the scripts by passing the config file to the runsh wrapper script
 
 `./run.sh /path/to/what/ever/script.conf`
 
+Since these scripts provide only function calls please provide a config file for your own scripts to call with the runsh wrapper script.
+
 # About
 
 Inclomplete agilefant (the opensource version!) API. Provides functions to create, delete and change products, projects, iterations, stories and tasks. Also provides a function to parse the agilefant structure into a JSON object to perform searches etc. on. A function to iterate over all the objects is provided too.
